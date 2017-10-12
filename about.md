@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-il Poveraccio is a figure of profound pathos.
+il poveraccio is a figure of profound pathos.
