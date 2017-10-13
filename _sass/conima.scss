@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+/*
+$body-font-family: 'Black Ops One', cursive;
+$body-font-family: 'Bungee', cursive;
+$body-font-family: 'Bungee Inline', cursive;
+$body-font-family: 'Bungee Shade', cursive;
+$body-font-family: 'Codystar', cursive;
+$body-font-family: 'Expletus Sans', cursive;
+$body-font-family: 'Iceland', cursive;
+$body-font-family: "Josefin Sans";
+$body-font-family: "Manaspace";
+$body-font-family: 'Montserrat', sans-serif;
+$body-font-family: 'Plaster', cursive;
+$body-font-family: 'Press Start 2P', cursive;
+$body-font-family: 'Raleway Dots', cursive;
+$body-font-family: 'VT323', monospace;
+*/ 
+
+//Il Poveraccio title font
+
+$ip-font-family: 'Black Ops One', cursive;
+$ip-font-size:   12px !default;
+$ip-font-weight: 400 !default;
+$ip-line-height: 1.5 !default;
+
+$body-font-family: 'Iceland', cursive;
+$body-font-size:   12px !default;
+$body-font-weight: 400 !default;
+$small-font-size:  $body-font-size * 0.875 !default;
+$body-line-height: 1.5 !default;
+
+$spacing-unit:     30px !default;
+
+// My Colors
+$blue1: #4286f4;
+$orange1: #ff7f00;
+$darknavyblue1: #000026;
+$palemint: #e0fff0;
+$bluegreen1: #58a7a0;
+$silver: #c0c0c0;
+$slategray: #708090;
+
+//$text-color:       #111 !default;
+$standout-color:   $orange1 !default;
+$text-color:       $darknavyblue1 !default;
+$background-color: $palemint !default;
+$brand-color:      $bluegreen1 !default;
+
+$grey-color:       $slategray !default;
+$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-dark:  darken($grey-color, 25%) !default;
+
+$table-text-align: left !default;
+
+// Width of the content area
+$content-width:    800px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        800px !default;
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//   .wrapper {
+//     padding-right: $spacing-unit / 2;
+//     padding-left: $spacing-unit / 2;
+//   }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin relative-font-size($ratio) {
+  font-size: $body-font-size * $ratio;
+}
+
+// Import partials.
+@import
+  "conima/base",
+  "conima/layout",
+  "conima/syntax-highlighting",
+  "conima/fonts"
+;
