@@ -11,4 +11,18 @@ Vitae semper quis lectus nulla at volutpat diam. Venenatis tellus in metus vulpu
 
 Duis tristique sollicitudin nibh sit amet commodo. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Urna nunc id cursus metus aliquam eleifend. Imperdiet proin fermentum leo vel orci porta non. Morbi tristique senectus et netus et malesuada. Vel pretium lectus quam id leo in vitae turpis. Aliquet eget sit amet tellus cras adipiscing. Sagittis aliquam malesuada bibendum arcu. Amet cursus sit amet dictum sit. Sit amet aliquam id diam maecenas ultricies.
 
+CODE
+----------------------------------------
+```python
+
+def some_function(arg: str):
+  global table_of_tables
+  for el in table_of_tables[arg]:
+    print(el.somevalue)
+
+  return True
+
+```
+----------------------------------------
+
 Id consectetur purus ut faucibus pulvinar elementum integer enim. Scelerisque eleifend donec pretium vulputate. Vestibulum sed arcu non odio euismod lacinia. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Vitae aliquet nec ullamcorper sit amet risus nullam eget. Faucibus ornare suspendisse sed nisi lacus sed viverra. Volutpat commodo sed egestas egestas fringilla phasellus. Libero volutpat sed cras ornare arcu. Curabitur gravida arcu ac tortor. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Hac habitasse platea dictumst quisque. Aliquam ultrices sagittis orci a scelerisque purus semper eget duis. Libero nunc consequat interdum varius. Auctor elit sed vulputate mi sit. Etiam erat velit scelerisque in dictum.
