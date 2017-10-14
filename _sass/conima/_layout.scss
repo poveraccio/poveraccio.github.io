@@ -11,7 +11,7 @@
 }
 
 .site-title {
-  @include relative-font-size(3.0);
+  @include relative-font-size(2.25);
   font-weight: 300;
   line-height: $ip-line-height * $ip-font-size * 3;
   letter-spacing: -1px;
@@ -21,7 +21,7 @@
 
 .site-nav {
   float: right;
-  line-height: $body-line-height * $body-font-size * 2.25;
+  line-height: $ip-line-height * $ip-font-size * 2.25;
 
   .nav-trigger {
       display: none;
@@ -33,7 +33,7 @@
 
   .page-link {
     color: $text-color;
-    line-height: $body-line-height;
+    line-height: $ip-line-height;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
